@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ac32219ebf1a1488c22fbd147cffad, type: 3}
+  m_Name: Tower Stats
+  m_EditorClassIdentifier: 
+  TowerStats:
+  - Name: Canon
+    TowerPrefab:
+    - {fileID: 4163618184530863396, guid: 12d891d2a5edf0d41bf840c92bdb801d, type: 3}
+    - {fileID: 4163618184530863396, guid: 042df916bf949994fba308dad54a6df4, type: 3}
+    - {fileID: 4163618184530863396, guid: 21b5ec619ebd95f4e87901950be896da, type: 3}
+    Cost: 640000003200000064000000
+    Sell: 320000004b0000007d000000
+  - Name: Missile
+    TowerPrefab:
+    - {fileID: 4163618184530863396, guid: 27887eeb07ad1a94e87a0b2e0847699f, type: 3}
+    - {fileID: 4163618184530863396, guid: 18003b815cd92594c91c46eee0b8ff60, type: 3}
+    - {fileID: 4163618184530863396, guid: 1bba1e016ef6b5340a388e052f44ab1a, type: 3}
+    Cost: c80000004b00000096000000
+    Sell: 6400000082000000c8000000
+  - Name: Laser
+    TowerPrefab:
+    - {fileID: 5032522482279755247, guid: d93ade40eb3d0704ab85920e6858deaf, type: 3}
+    - {fileID: 5032522482279755247, guid: eea537700ffdcd048bfd24298fea0748, type: 3}
+    - {fileID: 5032522482279755247, guid: fd09c7522dd44d04681ba3fef131f7ee, type: 3}
+    Cost: 960000003200000050000000
+    Sell: 4b000000640000008c000000
