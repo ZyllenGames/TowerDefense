@@ -16,5 +16,5 @@ MonoBehaviour:
   Level: 2
   ShootRange: 25
   ShootInterval: 1.5
-  Damage: 3
+  Damage: 5
   DamageRange: 15
