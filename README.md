@@ -10,6 +10,14 @@ This is a basic tower defense game. You can build 3 types of tower to defend you
 - Canon tower is the basic tower. Missile tower can damage enemies within its explosion range. Laser tower can shoot a laser and slow down enemies.
 - 5 total levels with 20 waves in each.
 
+## Controll
+- Left mouse to build and upgrade towers.
+- WASD to move camera around.
+- Mouse Scroll to zoom in/out.
+
+## Downloadable
+> https://zyllen.itch.io/towerdefense
+
 ## Screenshots
 ![Main Menu](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/MainMenu.gif)
 ![Level Selection](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/LevelSelect.png)
