@@ -10,33 +10,7 @@ public class LifeEntity : MonoBehaviour, IDamagable
 
     public GameObject DieEffect;
 
-    bool IsDead = false;
-
-
-    public virtual void Die()
-    {
-        IsDead = true;
-        if (DieEffect != null)
-        {
-            GameObject eff = Instantiate(DieEffect, transform.position, Quaternion.identity);
-            Color entitycolor = GetComponent<Renderer>().material.color;
-            eff.GetComponent<ParticleSystem>().GetComponent<Renderer>().material.color = entitycolor;
-            Destroy(eff, 2);
-        }
-        Destroy(gameObject);
-    }
-
-    public virtual void TakeDamage(float damage)
-    {
-        if (CurHealth > damage)
-            CurHealth -= damage;
-        else
-        {
-            CurHealth = 0;
-            if(!IsDead)
-                Die();
-        }
-    }
+    bool m_isDead = false;
 
     private void Awake()
     {
@@ -47,4 +21,31 @@ public class LifeEntity : MonoBehaviour, IDamagable
     {
         CurHealth = StartHealth;
     }
+
+    public virtual void TakeDamage(float damage)
+    {
+        if (CurHealth > damage)
+            CurHealth -= damage;
+        else
+        {
+            CurHealth = 0;
+            if(!m_isDead)
+                Die();
+        }
+    }
+
+    public virtual void Die()
+    {
+        m_isDead = true;
+        if (DieEffect != null)
+        {
+            GameObject eff = Instantiate(DieEffect, transform.position, Quaternion.identity);
+            Color entitycolor = GetComponent<Renderer>().material.color;
+            eff.GetComponent<ParticleSystem>().GetComponent<Renderer>().material.color = entitycolor;
+            Destroy(eff, 2);
+        }
+        Destroy(gameObject);
+    }
+
+
 }

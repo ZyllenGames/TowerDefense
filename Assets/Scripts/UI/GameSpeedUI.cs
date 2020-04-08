@@ -6,40 +6,41 @@ using UnityEngine.SceneManagement;
 
 public class GameSpeedUI : MonoBehaviour
 {
-    bool IsFast = false;
-    bool IsPause = false;
     public Text FastText;
     public Text PauseText;
 
+    bool m_isFast = false;
+    bool m_isPaused = false;
+
     public void OnFastButtonPressed()
     {
-        if(!IsFast)
+        if(!m_isFast)
         {
             FastText.text = "X1";
             Time.timeScale = 2;
-            IsFast = true;
+            m_isFast = true;
         }
         else
         {
             FastText.text = "X2";
             Time.timeScale = 1;
-            IsFast = false;
+            m_isFast = false;
         }
     }
 
     public void OnPauseButtonPressed()
     {
-        if (!IsPause)
+        if (!m_isPaused)
         {
             PauseText.text = ">";
             Time.timeScale = 0;
-            IsPause = true;
+            m_isPaused = true;
         }
         else
         {
             PauseText.text = "II";
             Time.timeScale = 1;
-            IsPause = false;
+            m_isPaused = false;
         }
     }
 
