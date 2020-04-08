@@ -19,10 +19,16 @@ This is a basic tower defense game. You can build 3 types of tower to defend you
 > https://zyllen.itch.io/towerdefense
 
 ## Screenshots
-<width = "630" height = "500" div align=center />![Main Menu](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/MainMenu.gif)
-<width = "630" height = "500" div align=center />![Level Selection](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/LevelSelect.png)
-<width = "630" height = "500" div align=center />![Game Play](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/GamePlay.gif)
-<width = "630" height = "500" div align=center />![BUild and Upgrade](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/BuildUpgrade.gif)
-<width = "630" height = "500" div align=center />![Canon](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/CannonTower.gif)
-<width = "630" height = "500" div align=center />![Missile](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/MissileTower.gif)
-<width = "630" height = "500" div align=center />![Laser](https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/LaserTower.gif)
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/MainMenu.gif" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/LevelSelect.png" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/GamePlay.gif" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/BuildUpgrade.gif" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/CannonTower.gif" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/MissileTower.gif" width = "630" height = "500" div align=center />
+
+<img src="https://github.com/ZyllenGames/TowerDefense/blob/master/ScreenShots/LaserTower.gif" width = "630" height = "500" div align=center />
